@@ -74,6 +74,20 @@ namespace MatrixJam.Team11
             _audioSource.PlayOneShot(finishMusic);
         }
 
+        IEnumerator StartPlayEndingSequence()
+        {
+            PlayFinish();
+            yield return new WaitForSeconds(finishMusic.length / 2f);
+            _audioSource.clip = ambienceLoop;
+            _audioSource.Play();
+            Debug.Log("Playing " + _audioSource.clip);
+        }
+
+        public void PlayEndingScene()
+        {
+            StartCoroutine(StartPlayEndingSequence());
+        }
+
         IEnumerator StartSequenceCoroutine()
         {
             

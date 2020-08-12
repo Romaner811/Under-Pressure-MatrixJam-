@@ -376,6 +376,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3042269254013582243}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &842981231 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7231853648889485197, guid: 7b8e6f4294d2a8846a8eaa6c9f0100c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4115228795929266590}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2a1e4579fcd534a8ce2711b2d2ad99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &942132634
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,7 +491,7 @@ MonoBehaviour:
   stingerMusic: {fileID: 8300000, guid: 8dba74d002f3047beaaf7475edb1ef19, type: 3}
   finishMusic: {fileID: 8300000, guid: 5bfbc0940dc044dc9bba30b8514a7e61, type: 3}
   hardGameLoop: {fileID: 8300000, guid: 1b48bfe406f4c48b7aee29eb47fea3ca, type: 3}
-  ambienceLoop: {fileID: 8300000, guid: 0e55e8723a335475b8d87f341f5dcb09, type: 3}
+  ambienceLoop: {fileID: 8300000, guid: be5e8a79bf9e843b1b13eb774f944eb0, type: 3}
   normalGameLoop: {fileID: 8300000, guid: 89a36568ab79e43cf995e6b9be5d5d2c, type: 3}
 --- !u!1 &1715110177
 GameObject:
@@ -1112,6 +1124,16 @@ PrefabInstance:
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1695927488}
+    - target: {fileID: 2486780209470013407, guid: 84c74714efa423c40add309e4353fa7d,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayEndingScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486780209470013407, guid: 84c74714efa423c40add309e4353fa7d,
+        type: 3}
+      propertyPath: TargetScene
+      value: 
+      objectReference: {fileID: 842981231}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84c74714efa423c40add309e4353fa7d, type: 3}
 --- !u!114 &2110624145 stripped
@@ -1156,6 +1178,16 @@ PrefabInstance:
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1695927488}
+    - target: {fileID: 653190021330625323, guid: a65a8b13354eb5f47851be12977b90f8,
+        type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayEndingScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 653190021330625323, guid: a65a8b13354eb5f47851be12977b90f8,
+        type: 3}
+      propertyPath: TargetScene
+      value: 
+      objectReference: {fileID: 842981231}
     - target: {fileID: 854924366412059977, guid: a65a8b13354eb5f47851be12977b90f8,
         type: 3}
       propertyPath: m_LocalPosition.x

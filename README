@@ -3,3 +3,6 @@
 * @nir9000 - Game & Level Design, Art, Programming.
 * @Idotoov - All Audio aspects (Sound Design, Music Composition, And in-code Integration).
 * @Romaner811 - Programming.
+
+* warning! don't pull-request from master to original repo! (it will change this readme file)
+* note: to see the relevant cahnges see branches "standalone", and "jam".
